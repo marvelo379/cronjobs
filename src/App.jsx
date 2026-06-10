@@ -63,8 +63,8 @@ export default function App() {
       {/* SCREEN 1: WELCOME */}
       {gameState === 'welcome' && (
         <div className="card-box">
-          <h1 className="title">Wisher App 🌟</h1>
-          <p className="subtitle">Touch the choices to unlock your birthday note.</p>
+          <h1 className="title">Wisher.com 🌟</h1>
+          <p className="subtitle">Touch the choices to unlock your special note.</p>
           <button className="primary-btn" onClick={startGame}>Let's Play</button>
         </div>
       )}
